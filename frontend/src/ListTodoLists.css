@@ -1,0 +1,13 @@
+.ListToDoLists .summary {
+  border: 1px solid lightgray;
+  padding: 1em;
+  margin: 1em;
+  cursor: pointer;
+  display: flex;
+}
+
+.ListToDoLists .count {
+  padding-left: 1ex;
+  color: blueviolet;
+  font-size: 92%;
+}

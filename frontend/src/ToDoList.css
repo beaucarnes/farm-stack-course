@@ -1,0 +1,22 @@
+.ToDoList .back {
+  margin: 0 1em;
+  padding: 1em;
+  float: left;
+}
+
+.ToDoList .item {
+  border: 1px solid lightgray;
+  padding: 1em;
+  margin: 1em;
+  cursor: pointer;
+  display: flex;
+}
+
+.ToDoList .label {
+  margin-left: 1ex;
+}
+
+.ToDoList .checked .label {
+  text-decoration: line-through;
+  color: lightgray;
+}
